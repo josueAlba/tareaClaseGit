@@ -16,6 +16,8 @@ and open the template in the editor.
         $imc=($peso/(pow(($altura/100), 2)));
         $estado="";
         
+//“Si puede visualizar esta línea es porque su actualización tuvo éxito”
+
         if($imc>0 && $imc<16)
         {
             $estado="INFRAPESO: Delgadez Severa";
